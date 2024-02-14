@@ -1,0 +1,18 @@
+.parent {
+  background-color: hsla(200, 100%, 20%);
+  height: 400px;
+  width: 400px;
+}
+
+.child {
+  background-color: red;
+  height: 50%;
+  width: 50%;
+  transform: translateX(-200%);
+  transition: transform 1s ease-in;
+  /*transition: transform 1s cubic-bezier(0.7, 0.04, 0.66, 1.71) 3s;*/
+}
+
+.active {
+  transform: translateX(100%);
+}
